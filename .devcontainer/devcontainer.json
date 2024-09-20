@@ -1,0 +1,22 @@
+{
+    "name":"Python env for data science",
+    "build":{
+        "dockerfile": "./Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "chouzz.vscode-better-align",
+                "aaron-bond.better-comments",
+                "mhutchie.git-graph",
+                "eamodio.gitlens",
+                "oderwat.indent-rainbow",
+                "SirTori.indenticator",
+                "ms-toolsai.jupyter",
+                "mohammadfarashipoor.markcode"
+            ]
+        }
+    }
+}
